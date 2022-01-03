@@ -11,8 +11,8 @@
                           </div>
                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                               <ul class="sociel">
-                                  <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                                  <li> <a href="#"><i class="fa fa-mobile-phone"></i></a></li>
+                                  <li> <a href="#"><i class="fab fa-instagram"></i></a></li>
+                                  <li> <a href="#"><i class="fab fa-whatsapp"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -27,11 +27,11 @@
                               <h3>Contate-nos </h3>
                               <ul class="loca">
                                   <li>
-                                      <a href="#"><i class="fa fa-map-marker"></i></a>Porto Alegre - RS | Brasil </li>
+                                      <a href="#"><i class="fas fa-map-marked-alt"></i></a> Porto Alegre - RS | Brasil </li>
                                   <li>
-                                      <a href="#"><i class="fa fa-phone"></i></a></a>+55 51 99521 5615 </li>
+                                      <a href="#"><i class="fas fa-phone-alt"></i></a></a> +55 51 99521 5615 </li>
                                   <li>
-                                      <a href="#"><i class="fa fa-envelope"></i></a></a>contato@wcubo.com.br </li>
+                                      <a href="#"><i class="fas fa-envelope"></i></a> contato@wcubo.com.br </li>
                               </ul>
 
                           </div>
@@ -40,11 +40,11 @@
                           <div class="address">
                               <h3>Clientes</h3>
                               <ul class="Menu_footer">
-                                  <li class="active"> <a href="#">Minha conta</a> </li>
-                                  <li><a href="#">Lista de desejos</a> </li>
-                                  <li><a href="#">Meu carrinho</a> </li>
-                                  <li><a href="#">Sair</a> </li>
-                                  <li><a href="#">Entrar</a> </li>
+                                  <li class="active"> <a href="#"><i class="fas fa-user-circle"></i> Minha conta</a> </li>
+                                  <li><a href="#"><i class="fas fa-heart"></i> Lista de desejos</a> </li>
+                                  <li><a href="#"><i class="fas fa-shopping-cart"></i> Meu carrinho</a> </li>
+                                  <li><a href="#"><i class="fas fa-sign-out-alt"></i> Sair</a> </li>
+                                  <li><a href="#"><i class="fas fa-sign-in-alt"></i> Entrar</a> </li>
                               </ul>
                           </div>
                       </div>
@@ -52,9 +52,9 @@
                           <div class="address">
                               <h3>Fornecedores</h3>
                               <ul class="Links_footer">
-                                  <li class="active"><a href="#">Meu painel</a> </li>
-                                  <li><a href="#"> Sair</a> </li>
-                                  <li><a href="#">Entrar</a> </li>
+                                  <li class="active"><a href="#"><i class="fas fa-briefcase"></i> Meu painel</a> </li>
+                                  <li><a href="#"><i class="fas fa-sign-out-alt"></i> Sair</a> </li>
+                                  <li><a href="#"><i class="fas fa-sign-in-alt"></i> Entrar</a> </li>
                               </ul>
                           </div>
                       </div>

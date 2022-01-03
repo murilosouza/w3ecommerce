@@ -23,6 +23,7 @@
                     <li>
                         <a href="#brand">Marcas</a>
                     </li>
+                    <li>
                         <a href="#clothes">Vestuário</a>
                     </li>
                     <li>
@@ -65,25 +66,25 @@
                                 <div class="col-lg-9">
                                     <div class="right_header_info">
                                         <ul>
+                                            <!--<li class="menu_iconb">
+                                                <a href="#"><i class="fa fa-phone"></i>+51 99521-5615</a>
+                                            </li> -->
                                             <li class="menu_iconb">
-                                                <a href="#"><i class="fa fa-phone"></i>+ 55 51 99521 5615</a>
+                                                <a href="#">Entrar <i class="fas fa-sign-in-alt"></i></a>
                                             </li>
-                                            <li class="menu_iconb">
-                                                <a href="#">Entrar <i class="fa fa-sing-in"></i> </a>
-                                            </li>
-                                            <li class="menu_iconb">
-                                                <a href="#">Criar Conta <img style="margin-left: 15px;" src="/views-src/store/icon/6.png" alt="#" /></a>
-                                            </li>
+                                            <!--<li class="menu_iconb">
+                                                <a href="#">Criar Conta <i class="fas fa-user-plus"></i></a>
+                                            </li>-->
                                             <li class="tytyu">
-                                                <a href="#"> <img style="margin-right: 15px;" src="/views-src/store/icon/2.png" alt="#" /></a>
+                                                <a href="#">Carrinho <i class="fas fa-shopping-cart"></i></a>
                                             </li>
                                             <li class="menu_iconb">
-                                                <a href="#"><img style="margin-right: 15px;" src="/views-src/store/icon/3.png" alt="#" /></a>
+                                                <a href="#">Buscar <i class="fas fa-search"></i></a>
                                             </li>
 
                                             <li>
                                                 <button type="button" id="sidebarCollapse">
-                                                    <img src="/views-src/store/images/menu_icon.png" alt="#" />
+                                                    Menu <i class="fas fa-bars"></i>
                                                 </button>
                                             </li>
                                         </ul>
