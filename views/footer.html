@@ -11,10 +11,8 @@
                           </div>
                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                               <ul class="sociel">
-                                  <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                                  <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
                                   <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                                  <li> <a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                  <li> <a href="#"><i class="fa fa-mobile-phone"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -26,52 +24,48 @@
                   <div class="row">
                       <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 ">
                           <div class="address">
-                              <h3>Contact us </h3>
+                              <h3>Contate-nos </h3>
                               <ul class="loca">
                                   <li>
-                                      <a href="#"><img src="/views-src/store/icon/loc.png" alt="#" /></a>145 londone
-                                      <br>uk </li>
+                                      <a href="#"><i class="fa fa-map-marker"></i></a>Porto Alegre - RS | Brasil </li>
                                   <li>
-                                      <a href="#"><img src="/views-src/store/icon/call.png" alt="#" /></a>+12586954775 </li>
+                                      <a href="#"><i class="fa fa-phone"></i></a></a>+55 51 99521 5615 </li>
                                   <li>
-                                      <a href="#"><img src="/views-src/store/icon/email.png" alt="#" /></a>demo@gmail.com </li>
-
+                                      <a href="#"><i class="fa fa-envelope"></i></a></a>contato@wcubo.com.br </li>
                               </ul>
 
                           </div>
                       </div>
                       <div class="col-lg-3 col-md-6 col-sm-6">
                           <div class="address">
-                              <h3>customer service</h3>
+                              <h3>Clientes</h3>
                               <ul class="Menu_footer">
-                                  <li class="active"> <a href="#">My account</a> </li>
-                                  <li><a href="#">Wishlist</a> </li>
-                                  <li><a href="#">My Cart</a> </li>
-                                  <li><a href="#">Checkout</a> </li>
-                                  <li><a href="#">Login</a> </li>
+                                  <li class="active"> <a href="#">Minha conta</a> </li>
+                                  <li><a href="#">Lista de desejos</a> </li>
+                                  <li><a href="#">Meu carrinho</a> </li>
+                                  <li><a href="#">Sair</a> </li>
+                                  <li><a href="#">Entrar</a> </li>
                               </ul>
                           </div>
                       </div>
                       <div class="col-lg-3 col-md-6 col-sm-6">
                           <div class="address">
-                              <h3>corporation</h3>
+                              <h3>Fornecedores</h3>
                               <ul class="Links_footer">
-                                  <li class="active"><a href="#">My account</a> </li>
-                                  <li><a href="#">Wishlist</a> </li>
-                                  <li><a href="#">My Cart</a> </li>
-                                  <li><a href="#"> Checkout</a> </li>
-                                  <li><a href="#">Login</a> </li>
+                                  <li class="active"><a href="#">Meu painel</a> </li>
+                                  <li><a href="#"> Sair</a> </li>
+                                  <li><a href="#">Entrar</a> </li>
                               </ul>
                           </div>
                       </div>
 
                       <div class="col-lg-3 col-md-6 col-sm-6 ">
                           <div class="address">
-                              <h3>why choose us</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
+                              <h3>Por que escolher a W3 Store</h3>
+                              <p>Desenvolvemos uma interface intuitiva, que vai facilitar a consulta e compra dos seus produtos, pelo seu cliente </p>
                               <form class="newtetter">
-                                  <input class="tetter" placeholder="Your email" type="text" name="Your email">
-                                  <button class="submit">Subscribe</button>
+                                  <input class="tetter" placeholder="Seu e-mail" type="text" name="Seu e-mail">
+                                  <button class="submit">Assine</button>
                               </form>
                           </div>
                       </div>
@@ -82,7 +76,7 @@
      
       <div class="copyright"> 
           <div class="container">
-          <p>Copyright 2022 All Right Reserved By <a href="https://www.wcubo.com.br">WCubo</a></p>
+          <p>Desenvolvido por <a href="https://www.wcubo.com.br">WCubo</a> @ 2022</p>
       </div>
     </div>
   </div>

@@ -23,11 +23,17 @@
                     <li>
                         <a href="#brand">Marcas</a>
                     </li>
-                    <li>
-                        <a href="#shoes">Tênis</a>
+                        <a href="#clothes">Vestuário</a>
                     </li>
                     <li>
+                        <a href="#shoes">Calçados</a>
+                    </li>
+                    <li>
+                    <li>
                         <a href="#jewellery">Acessórios</a>
+                    </li>
+                    <li>
+                        <a href="#jewellery">Perfumes</a>
                     </li>
                     <li>
                         <a href="#kids">Infantil</a>
@@ -60,13 +66,13 @@
                                     <div class="right_header_info">
                                         <ul>
                                             <li class="menu_iconb">
-                                                <a href="#"><img style="margin-right: 15px;" src="/views-src/store/icon/1.png" alt="#" />+ 55 51 99521 5615</a>
+                                                <a href="#"><i class="fa fa-phone"></i>+ 55 51 99521 5615</a>
                                             </li>
                                             <li class="menu_iconb">
-                                                <a href="#">Log in <img style="margin-right: 15px;" src="/views-src/store/icon/5.png" alt="#" /> </a>
+                                                <a href="#">Entrar <i class="fa fa-sing-in"></i> </a>
                                             </li>
                                             <li class="menu_iconb">
-                                                <a href="#">Signup<img style="margin-left: 15px;" src="/views-src/store/icon/6.png" alt="#" /></a>
+                                                <a href="#">Criar Conta <img style="margin-left: 15px;" src="/views-src/store/icon/6.png" alt="#" /></a>
                                             </li>
                                             <li class="tytyu">
                                                 <a href="#"> <img style="margin-right: 15px;" src="/views-src/store/icon/2.png" alt="#" /></a>
@@ -96,11 +102,11 @@
                                 <div class="row">
                                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mapimg">
                                         <div class="text-bg">
-                                            <h1>All <br>
-                                        In<br>
-                                        One <br>
-                                        Shop</h1>
-                                            <span>Lorem ipsum dolor sit amet</span>
+                                            <h1>Os <br>
+                                        Mel<br>
+                                         hor<br>
+                                        es</h1>
+                                            <span>Produtos & Marcas</span>
                                             <a href="#">Compre agora!</a>
                                         </div>
                                     </div>
@@ -176,8 +182,7 @@
                                     <li><a href="#shoes">Calçados</a></li>
                                     <li><a href="#jewellery">Acessórios</a></li>
                                     <li><a href="#">Perfumes</a></li>
-                                    <li><a href="#kids">Kids and Babies</a></li>
-                                    <li><a href="#">Sports</a></li>
+                                    <li><a href="#kids">Infantil</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -185,14 +190,14 @@
 
                     <!-- news brand -->
                     <div id="brand"  class="brand-bg">
-                        <h3>Novos produtos</h3>
+                        <h3>Novidade em Vestuário</h3>
                         <div class="row">
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 margintop">
                                 <div class="brand-box">
                                     <h5>Novidade</h5>
                                     <i><img src="/views-src/store/icon/p1.png"/>
                                 </i>
-                                    <h4>Preço R$<span class="nolmal">100,00</span></h4>
+                                    <h4>R$<span class="nolmal">100,00</span></h4>
 
                                 </div>
                                 <a class="buynow" href="#">Compre agora</a>
@@ -200,7 +205,7 @@
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 margintop">
                                 <div class="brand-box">
                                     <i><img src="/views-src/store/icon/p2.png"/></i>
-                                    <h4>Preço R$<span class="nolmal">100,00</span></h4>
+                                    <h4>R$<span class="nolmal">100,00</span></h4>
 
                                 </div>
                                 <a class="buynow" href="#">Compre agora</a>
@@ -208,7 +213,7 @@
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="brand-box">
                                     <i><img src="/views-src/store/icon/p1.png"/></i>
-                                    <h4>Preço R$<span class="nolmal">100,00</span></h4>
+                                    <h4>R$<span class="nolmal">100,00</span></h4>
 
                                 </div>
                                 <a class="buynow" href="#">Compre agora</a>
@@ -216,10 +221,10 @@
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="brand-box">
                                     <i><img src="/views-src/store/icon/p4.png"/></i>
-                                    <h4>Preço R$<span class="nolmal">100,00</span></h4>
+                                    <h4>R$<span class="nolmal">100,00</span></h4>
 
                                 </div>
-                                <a class="buynow" href="#">Compre agora</a>
+                                <a class="buynow" href="#">Compre agora!</a>
                             </div>
                         </div>
                     </div>
@@ -235,35 +240,38 @@
                                     <h5>Lançamento</h5>
                                     <i><img src="/views-src/store/icon/s1.png"/>
                                 </i>
-                                    <h4>Price $<span class="nolmal">100</span></h4>
+                                    <h4>R$<span class="nolmal">100,00</span></h4>
 
                                 </div>
-                                <a class="buynow" href="#">Buy now</a>
+                                <a class="buynow" href="#">Compre agora</a>
                             </div>
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 margintop">
                                 <div class="shoes-box">
                                     <i><img src="/views-src/store/icon/s2.png"/></i>
-                                    <h4>Price $<span class="nolmal">100</span></h4>
+                                    <h4>R$<span class="nolmal">100,00</span></h4>
+
                                 </div>
-                                <a class="buynow" href="#">Buy now</a>
+                                <a class="buynow" href="#">Compre agora!</a>
                             </div>
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="shoes-box">
                                     <i><img src="/views-src/store/icon/s3.png"/></i>
-                                    <h4>Price $<span class="nolmal">100</span></h4>
+                                    <h4>R$<span class="nolmal">100,00</span></h4>
+
                                 </div>
-                                <a class="buynow" href="#">Buy now</a>
+                                <a class="buynow" href="#">Compre agora</a>
                             </div>
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="shoes-box">
                                     <i><img src="/views-src/store/icon/s4.png"/></i>
-                                    <h4>Price $<span class="nolmal">100</span></h4>
+                                    <h4>R$<span class="nolmal">100,00</span></h4>
+
                                 </div>
-                                <a class="buynow" href="#">Buy now</a>
+                                <a class="buynow" href="#">Compre agora</a>
                             </div>
                         </div>
                     </div>
-                    <a class="seemore" href="#">See more</a>
+                    <a class="seemore" href="#">Informações</a>
                 </div>
 
             </div>
@@ -282,8 +290,8 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div class="save_box">
-                                <h3>save up to 50%</h3>
-                                <a href="#">Buy now</a>
+                                <h3>Descontos de até 50%</h3>
+                                <a href="#">Compre agora!</a>
                             </div>
                         </div>
                     </div>
@@ -299,42 +307,45 @@
         <div class="row">
             <div class="col-md-12">
                 <div id="jewellery" class="Jewellery-bg">
-                    <h3>New Jewellery</h3>
+                    <h3>Novidades em Acessórios</h3>
                     <div class="row">
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 margintop">
                             <div class="Jewellery-box">
                                 <h5>Sale</h5>
                                 <i><img src="/views-src/store/icon/j1.png"/>
                                 </i>
-                                <h4>Price $<span class="nolmal">100</span></h4>
+                                <h4>R$<span class="nolmal">100,00</span></h4>
 
-                            </div>
-                            <a class="buynow" href="#">Buy now</a>
+                                </div>
+                                <a class="buynow" href="#">Compre agora</a>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 margintop">
                             <div class="Jewellery-box">
                                 <i><img src="/views-src/store/icon/j2.png"/></i>
-                                <h4>Price $<span class="nolmal">100</span></h4>
-                            </div>
-                            <a class="buynow" href="#">Buy now</a>
+                                <h4>R$<span class="nolmal">100,00</span></h4>
+
+                                </div>
+                                <a class="buynow" href="#">Compre agora</a>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                             <div class="Jewellery-box">
                                 <i><img src="/views-src/store/icon/j3.png"/></i>
-                                <h4>Price $<span class="nolmal">100</span></h4>
-                            </div>
-                            <a class="buynow" href="#">Buy now</a>
+                                <h4>R$<span class="nolmal">100,00</span></h4>
+
+                                </div>
+                                <a class="buynow" href="#">Compre agora</a>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                             <div class="Jewellery-box">
                                 <i><img src="/views-src/store/icon/j4.png"/></i>
-                                <h4>Price $<span class="nolmal">100</span></h4>
-                            </div>
-                            <a class="buynow" href="#">Buy now</a>
+                                <h4>R$<span class="nolmal">100,00</span></h4>
+
+                                </div>
+                                <a class="buynow" href="#">Compre agora</a>
                         </div>
                     </div>
                 </div>
-                <a class="seemore" href="#">See more</a>
+                <a class="seemore" href="#">Informações</a>
             </div>
         </div>
     </div>
@@ -346,33 +357,33 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="Kids-bg">
-                        <h3>Kids and Babies</h3>
+                        <h3>Infantil</h3>
                         <div class="row">
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 margintop">
                                 <div class="Kids-box">
 
                                     <i><img src="/views-src/store/icon/k1.png"/>
                                 </i>
-                                    <h4>Price $<span class="nolmal">100</span></h4>
+                                    <h4>R$<span class="nolmal">100,00</span></h4>
 
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 margintop">
                                 <div class="Kids-box">
                                     <i><img src="/views-src/store/icon/k1.png"/></i>
-                                    <h4>Price $<span class="nolmal">100</span></h4>
+                                    <h4>R$<span class="nolmal">100,00</span></h4>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="Kids-box">
                                     <i><img src="/views-src/store/icon/k1.png"/></i>
-                                    <h4>Price $<span class="nolmal">100</span></h4>
+                                    <h4>R$<span class="nolmal">100,00</span></h4>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="Kids-box">
                                     <i><img src="/views-src/store/icon/k1.png"/></i>
-                                    <h4>Price $<span class="nolmal">100</span></h4>
+                                    <h4>R$<span class="nolmal">100,00</span></h4>
                                 </div>
                             </div>
                         </div>
