@@ -1,4 +1,4 @@
-<!--  footer -->
+<?php if(!class_exists('Rain\Tpl')){exit;}?><!--  footer -->
 <footer>
   <div class="footer">
       <div class="container">

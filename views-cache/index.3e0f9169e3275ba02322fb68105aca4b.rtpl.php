@@ -1,4 +1,4 @@
-<body class="main-layout">
+<?php if(!class_exists('Rain\Tpl')){exit;}?><body class="main-layout">
     <!-- loader  -->
     <div class="loader_bg">
         <div class="loader"><img src="/views-src/store/images/loading.gif" alt="#" /></div>
