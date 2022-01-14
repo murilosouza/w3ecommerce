@@ -27,9 +27,7 @@ class User extends Model {
         {
             $user = new User();
 
-            $user->setData($data);
-
-            
+            $user->setiduser($data["iduser"]);
 
         } else {
 
