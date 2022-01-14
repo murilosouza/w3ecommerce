@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>W3 Store | Log in</title>
+  <title>WCubo Store Admin | Log in</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -17,14 +17,14 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="/adminLoja/login"><b>Admin</b> W3 Store</a>
+    <a href="/admin/login"><b>W3 Store</b> Admin</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
       <p class="login-box-msg">Painel Administrativo</p>
 
-      <form action="/adminLoja/login" method="post">
+      <form action="/admin/login" method="post">
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="login" name="login">
           <div class="input-group-append">

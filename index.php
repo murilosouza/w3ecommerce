@@ -19,7 +19,7 @@ $app->get('/', function() {
 
 });
 
-$app->get('/adminLoja', function() {
+$app->get('/admin', function() {
     
 	$page = new PageAdmin();
 	
@@ -27,7 +27,7 @@ $app->get('/adminLoja', function() {
 
 });
 
-$app->get('/adminLoja/login', function() {
+$app->get('/admin/login', function() {
     
 	$page = new PageAdmin([
 		"header" => false,
@@ -38,11 +38,11 @@ $app->get('/adminLoja/login', function() {
 
 });
 
-$app->post('/adminLoja/login', function() {
+$app->post('/admin/login', function() {
     
 	User::login($_POST["login"], $_POST["password"]);
 
-	header("location: /adminLoja");
+	header("location: /admin");
 	
 	exit;
 

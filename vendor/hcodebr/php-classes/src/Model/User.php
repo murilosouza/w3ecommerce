@@ -11,7 +11,6 @@ class User extends Model {
     {
 
         $sql = new Sql();
-
         $results = $sql->select("SELECT * FROM tb_users WHERE deslogin = :LOGIN", array(
             ":LOGIN"=>$login
         )
