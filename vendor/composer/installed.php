@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
-        'name' => 'murilosou/w3ecommerce',
+        'reference' => 'd7dd02e5de0354bfc08e8cce76ff4c0b88423d7a',
+        'name' => 'murilosouza/w3ecommerce',
         'dev' => true,
     ),
     'versions' => array(
-        'murilosou/w3ecommerce' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+        'murilosouza/w3ecommerce' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'd7dd02e5de0354bfc08e8cce76ff4c0b88423d7a',
             'dev_requirement' => false,
         ),
         'phpmailer/phpmailer' => array(
