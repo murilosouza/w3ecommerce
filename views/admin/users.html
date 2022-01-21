@@ -1,0 +1,76 @@
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <div class="content-header">
+    <div class="container-fluid">
+      <div class="row mb-2">
+        <div class="col-sm-6">
+          <h4 class="m-0"><i class="nav-icon fas fa-users"></i> Usuários</h4>
+        </div><!-- /.col -->
+        <div class="col-sm-6">
+          <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item"><a href="/admin">Página inicial</a></li>
+            <li class="breadcrumb-item active">Usuários</a></li>
+          </ol>
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+  </div>
+  <!-- /.content-header -->
+
+  <!-- Main content -->
+  <div class="content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-header">
+              <h5 class="m-0">Usuários cadastrados <span><a href="/admin/users/create" class="btn btn-success float-right"><i class="nav-icon fas fa-user-plus"></i> Adicionar Usuário</a></span></h5> 
+            </div>
+            <div class="card-body no-padding">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th style="width: 10px">#</th>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Login</th>
+                    <th style="width: 60px">Admin</th>
+                    <th style="width: 140px">&nbsp;</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {loop="$users"}
+                  <tr>
+                    <td>{$value.iduser}</td>
+                    <td>{$value.desperson}</td>
+                    <td>{$value.desemail}</td>
+                    <td>{$value.deslogin}</td />
+                    <td>{if="$value.inadmin == 1"}Sim{else}Não{/if}</td>
+                    <td>
+                      <a href="/admin/users/{$value.iduser}" class="btn btn-primary btn-xs"><i class="fa fa-edit"></i>
+                        Editar</a>
+                      <a href="/admin/users/{$value.iduser}/delete"
+                        onclick="return confirm('Deseja realmente excluir este registro?')"
+                        class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Excluir</a>
+                    </td>
+                  </tr>
+                  {/loop}
+                </tbody>
+              </table>
+            </div>
+            <!--
+            <div class="card-footer">
+              Adicionar contagem de usuários
+            </div>
+          -->
+          </div>
+        </div>
+        <!-- /.col-md-12 -->
+      </div>
+      <!-- /.row -->
+    </div><!-- /.container-fluid -->
+  </div>
+  <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
