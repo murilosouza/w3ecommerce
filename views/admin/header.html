@@ -27,10 +27,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
+        <a href="#" class="nav-link">Contato</a>
       </li>
     </ul>
 
@@ -160,8 +160,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index.html" class="brand-link">
-      <img src="/views-src/admin/dist/img/wCuboLogo.png" alt="WCubo Logo" class="brand-image" style="opacity: .8">
+    <a href="#" class="brand-link">
+      <img src="/views-src/admin/dist/img/logo_wcubo.png" alt="W3" class="brand-image" style="opacity: .8">
       <span class="brand-text font-weight-light"><b>Store</b> Admin</span>
     </a>
 
