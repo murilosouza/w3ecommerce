@@ -59,9 +59,11 @@
                 </tbody>
               </table>
             </div>
+            <!--
             <div class="card-footer">
               Adicionar contagem de usuários
             </div>
+          -->
           </div>
         </div>
         <!-- /.col-md-12 -->
