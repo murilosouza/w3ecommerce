@@ -5,12 +5,12 @@
     <div class="container-fluid">
       <div class="row mb-2">
         <div class="col-sm-6">
-          <h4 class="m-0"><i class="nav-icon fas fa-user-plus"></i> Cadastro de Usuário</h4>
+          <h4 class="m-0"><i class="nav-icon fas fa-users"></i> Usuários</h4>
         </div><!-- /.col -->
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
             <li class="breadcrumb-item"><a href="/admin">Página inicial</a></li>
-            <li class="breadcrumb-item active">Cadastro de Usuário</a></li>
+            <li class="breadcrumb-item active">Cadastrar de Usuário</a></li>
           </ol>
         </div><!-- /.col -->
       </div><!-- /.row -->
@@ -25,9 +25,9 @@
         <div class="col-lg-12">
           <div class="card">
             <div class="card-header">
-              <h4 class="m-0">Novo Usuário</h4>
+              <h4 class="m-0">Cadastrar Usuário</h4>
             </div>
-            <!-- /.box-header -->
+            <!-- /.card-header -->
             <!-- form start -->
             <form role="form" action="/admin/users/create" method="post">
               <div class="card-body no-padding">

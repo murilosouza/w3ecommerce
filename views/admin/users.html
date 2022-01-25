@@ -10,7 +10,7 @@
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
             <li class="breadcrumb-item"><a href="/admin">Página inicial</a></li>
-            <li class="breadcrumb-item active">Usuários</a></li>
+            <li class="breadcrumb-item active">Usuários Cadastrados</a></li>
           </ol>
         </div><!-- /.col -->
       </div><!-- /.row -->
@@ -25,7 +25,7 @@
         <div class="col-lg-12">
           <div class="card">
             <div class="card-header">
-              <h4 class="m-0">Usuários cadastrados <span><a href="/admin/users/create" class="btn btn-primary float-right"><i class="nav-icon fas fa-user-plus"></i> Cadastrar Usuário</a></span></h4> 
+              <h4 class="m-0">Usuários Cadastrados <span><a href="/admin/users/create" class="btn btn-primary float-right"><i class="nav-icon fas fa-user-plus"></i> Cadastrar Usuário</a></span></h4> 
             </div>
             <div class="card-body no-padding">
               <table class="table table-striped">

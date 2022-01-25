@@ -93,9 +93,15 @@ $app->get("/admin/users/:iduser", function($iduser) {
 
 	User::verifyLogin();
 
+	$user = new User();
+
+	$user->get((int)$iduser);
+
 	$page = new PageAdmin();
 	
-	$page->setTpl("users-update");
+	$page->setTpl("users-update", array(
+		"user"=>$user->getValues()
+	));
 
 });
 
