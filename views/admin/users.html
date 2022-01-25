@@ -25,7 +25,7 @@
         <div class="col-lg-12">
           <div class="card">
             <div class="card-header">
-              <h5 class="m-0">Usuários cadastrados <span><a href="/admin/users/create" class="btn btn-success float-right"><i class="nav-icon fas fa-user-plus"></i> Adicionar Usuário</a></span></h5> 
+              <h4 class="m-0">Usuários cadastrados <span><a href="/admin/users/create" class="btn btn-primary float-right"><i class="nav-icon fas fa-user-plus"></i> Cadastrar Usuário</a></span></h4> 
             </div>
             <div class="card-body no-padding">
               <table class="table table-striped">
@@ -48,7 +48,7 @@
                     <td>{$value.deslogin}</td />
                     <td>{if="$value.inadmin == 1"}Sim{else}Não{/if}</td>
                     <td>
-                      <a href="/admin/users/{$value.iduser}" class="btn btn-primary btn-xs"><i class="fa fa-edit"></i>
+                      <a href="/admin/users/{$value.iduser}" class="btn btn-info btn-xs"><i class="fa fa-edit"></i>
                         Editar</a>
                       <a href="/admin/users/{$value.iduser}/delete"
                         onclick="return confirm('Deseja realmente excluir este registro?')"
