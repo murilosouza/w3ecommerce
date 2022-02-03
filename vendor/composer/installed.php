@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'd7dd02e5de0354bfc08e8cce76ff4c0b88423d7a',
+        'reference' => 'b8aa49497e0a8de533b1f9c91fc4d9be710dcc56',
         'name' => 'murilosouza/w3ecommerce',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'd7dd02e5de0354bfc08e8cce76ff4c0b88423d7a',
+            'reference' => 'b8aa49497e0a8de533b1f9c91fc4d9be710dcc56',
             'dev_requirement' => false,
         ),
         'phpmailer/phpmailer' => array(
