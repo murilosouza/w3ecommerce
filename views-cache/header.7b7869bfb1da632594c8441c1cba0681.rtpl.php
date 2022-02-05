@@ -158,7 +158,7 @@
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+  <aside class="main-sidebar sidebar-dark-secondary elevation-4">
     <!-- Brand Logo -->
     <a href="/admin" class="brand-link">
       <img src="/views-src/admin/dist/img/logo_wcubo.png" alt="W3" class="brand-image" style="opacity: .8">
@@ -246,7 +246,7 @@
             <li class="nav-item">
               <a href="/admin/categories" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
-                <p>Categoria</p>
+                <p>Categorias</p>
               </a>
             </li>
         
