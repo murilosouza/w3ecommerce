@@ -130,6 +130,50 @@ class User extends Model {
         ));
     }
 
+    public static function getForgot($email)
+    {
+        $sql = new Sql();
+
+        $results = $sql->select("
+        SELECT 
+            *
+        FROM
+            tb_persons p
+                INNER JOIN
+            tb_users u USING (idperson)
+        WHERE
+            p.desemail = :email;
+        ", array(
+            ":email"=>$email
+        ));
+
+        if (count($results) === 0)
+        {
+            throw new \Exception("Não foi possível recuperar seu acesso, por gentleza, contate o suporte");
+        } else
+        {
+            $data = $results[0];
+
+            $results2 = $sql->select("CALL sp_userpasswordsrecoveries_create(:iduser, :desip)", array(
+                ":iduser"=>$data["iduser"],
+                ":desip"=>$_SERVER["REMOTE_ADDR"]
+            ));
+
+            if (count($results2) === 0)
+            {
+
+                throw new \Exception("Não foi possível recuperar seu acesso, por gentleza, contate o suporte");
+
+            } else
+            {
+
+                $dataRecovery = $results2[0];
+
+                base64_encode(openssl_encrypt())
+            }
+        }
+    }
+
 }
 
 ?>
