@@ -154,7 +154,6 @@ $app->post("/admin/users/:iduser", function($iduser) {
 	header("Location: /admin/users");
 
 	exit;
-
 	
 });
 
