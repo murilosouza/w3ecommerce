@@ -26,7 +26,7 @@
 
       <form action="/admin/login" method="post">
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="login" name="login">
+          <input type="text" class="form-control" placeholder="Usuário" name="login">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-user"></span>
@@ -34,28 +34,18 @@
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" placeholder="password" name="password">
+          <input type="password" class="form-control" placeholder="Senha" name="password">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-key"></span>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-8">
-            <div class="icheck-primary">
-              <input type="checkbox" id="remember">
-              <label for="remember">
-                Lembrar-me
-              </label>
-            </div>
+        
+          <div class="input-group mb-3">
+            <button type="submit" class="btn btn-outline-success btn-block"><i class="fas fa-sign-in-alt"></i> Entrar</button>
           </div>
-          <!-- /.col -->
-          <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-sign-in-alt"></i> Entrar</button>
-          </div>
-          <!-- /.col -->
-        </div>
+          
       </form>
       <!--
       <div class="social-auth-links text-center mb-3">
@@ -70,7 +60,7 @@
        /.social-auth-links -->
 
       <p class="mb-1">
-        <a href="/admin/forgot">Esqueci minha senha</a>
+        <a href="/admin/forgot"><i class="fas fa-user-lock"></i> Esqueci minha senha</a>
       </p>
      <!-- <p class="mb-0">
         <a href="register.html" class="text-center">Register a new membership</a>
