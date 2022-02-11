@@ -158,7 +158,10 @@ class User extends Model {
         if (count($results) === 0)
         {
 
-            throw new \Exception("Não foi possível recuperar seu acesso, por gentleza, contate o suporte");
+            //throw new \Exception("Não foi possível recuperar seu acesso, por gentleza, contate o suporte");
+            header("Location: /admin/forgot/error");
+
+	        exit;
 
         } 
         else
@@ -177,7 +180,10 @@ class User extends Model {
             if (count($results2) === 0)
             {
 
-                throw new \Exception("Não foi possível recuperar seu acesso, por gentleza, contate o suporte 002");
+                //throw new \Exception("Não foi possível recuperar seu acesso, por gentleza, contate o suporte");
+                header("Location: /admin/forgot/error");
+
+	            exit;
 
              } else
             { 

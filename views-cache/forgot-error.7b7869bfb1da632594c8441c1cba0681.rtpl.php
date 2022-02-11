@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if(!class_exists('Rain\Tpl')){exit;}?><!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -16,13 +16,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="/views-src/admin/dist/css/adminlte.min.css">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
 </head>
 
 <body class="hold-transition lockscreen">
@@ -34,9 +27,11 @@
 
   <!-- /.lockscreen-item -->
   <div class="help-block text-center">
-    <div class="alert alert-success">
-      <h4>Senha Alterada!</h4>
-      <p>Tente fazer o login com sua nova senha.<br><a href="/admin/login">Clique aqui</a> para fazer o login.</p>
+    <div class="alert alert-danger">
+      <br>
+      <h4><i class="icon fas fa-exclamation-triangle"></i> Algo errado!</h4>
+      <h6>Desculpe, não foi possível recuperar seu acesso.</h6>
+      <p>Por gentileza, contate o suporte.</p>
     </div>
   </div>
   <div class="lockscreen-footer text-center">

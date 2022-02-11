@@ -198,6 +198,17 @@ $app->get("/admin/forgot/sent", function(){
 
 });
 
+$app->get("/admin/forgot/error", function(){
+
+	$page = new PageAdmin([
+		"header"=>false,
+		"footer"=>false
+	]);
+
+	$page->setTpl("forgot-error");	
+
+});
+
 $app->run();
 
  ?>

@@ -27,12 +27,10 @@
 
   <!-- /.lockscreen-item -->
   <div class="help-block text-center">
-    <div class="alert alert-success">
-      <h4><i class="icon fas fa-check"></i> E-mail enviado!</h4>
+    <div class="alert alert-warning">
+      <br>
+      <h4><i class="icon fas fa-paper-plane"></i> E-mail enviado!</h4>
       <p>Verifique as instruções no seu e-mail.</p>
-      <p class="lockscreen-footer">
-        <a href="/admin/login"><i class="fas fa-sign-in-alt"></i> Tentar acessar novamente</a>
-      </p>
     </div>
   </div>
   <div class="lockscreen-footer text-center">
