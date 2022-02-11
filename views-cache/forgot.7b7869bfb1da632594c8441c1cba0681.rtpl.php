@@ -41,7 +41,7 @@
           <div class="row">
             <!-- /.col -->
             <div class="col-12">
-              <button type="submit" class="btn btn-outline-success btn-block"><i class="far fa-paper-plane"></i> Enviar</button>
+              <button type="submit" class="btn btn-outline-success btn-block"><i class="icon far fa-paper-plane"></i> Enviar</button>
             </div>
             <!-- /.col -->
           </div>
@@ -51,7 +51,7 @@
           Verifique as instruções enviadas ao seu e-mail
         </p>
         <p class="mb-1 text-center">
-          <a href="/admin/login"><i class="fas fa-sign-in-alt"></i> Tentar acessar novamente</a>
+          <a href="/admin/login"><i class="icon fas fa-sign-in-alt"></i> Tentar acessar novamente</a>
         </p>
        <!-- <p class="mb-0">
           <a href="register.html" class="text-center">Register a new membership</a>

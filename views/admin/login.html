@@ -43,7 +43,7 @@
         </div>
         
           <div class="input-group mb-3">
-            <button type="submit" class="btn btn-outline-success btn-block"><i class="fas fa-sign-in-alt"></i> Entrar</button>
+            <button type="submit" class="btn btn-outline-success btn-block"><i class="icon fas fa-sign-in-alt"></i> Entrar</button>
           </div>
           
       </form>
@@ -60,7 +60,7 @@
        /.social-auth-links -->
 
       <p class="mb-1">
-        <a href="/admin/forgot"><i class="fas fa-user-lock"></i> Esqueci minha senha</a>
+        <a href="/admin/forgot"><i class="icon fas fa-user-lock"></i> Esqueci minha senha</a>
       </p>
      <!-- <p class="mb-0">
         <a href="register.html" class="text-center">Register a new membership</a>
