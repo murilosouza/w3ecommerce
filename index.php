@@ -209,6 +209,17 @@ $app->get("/admin/forgot/error", function(){
 
 });
 
+$app->get("/admin/login/error", function(){
+
+	$page = new PageAdmin([
+		"header"=>false,
+		"footer"=>false
+	]);
+
+	$page->setTpl("login-error");	
+
+});
+
 $app->run();
 
  ?>

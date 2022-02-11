@@ -26,7 +26,9 @@ class User extends Model {
 
         if (count($results) === 0)
         {
-            throw new \Exception("Usuário e/ou senha inválidos");
+            //throw new \Exception("Usuário e/ou senha inválidos");
+            header("Location: /admin/login/error");
+            exit;
         }
 
         $data = $results[0];
@@ -41,7 +43,9 @@ class User extends Model {
 
         } else {
 
-            throw new \Exception("Usuário e/ou senha inválidos");
+            //throw new \Exception("Usuário e/ou senha inválidos");
+            header("Location: /admin/login/error");
+            exit;
         }
 
     }
