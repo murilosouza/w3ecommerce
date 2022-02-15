@@ -25,13 +25,13 @@
         <div class="col-lg-12">
           <div class="card">
             <div class="card-header">
-              <h4 class="m-0">Usuários Cadastrados <span><a href="/admin/users/create" class="btn btn-primary float-right"><i class="nav-icon fas fa-user-plus"></i> Cadastrar Usuário</a></span></h4> 
+              <h4 class="m-0">Usuários Cadastrados <span><a href="/admin/users/create" class="btn btn-outline-primary float-right"><i class="nav-icon fas fa-user-plus"></i> Cadastrar Usuário</a></span></h4> 
             </div>
             <div class="card-body no-padding">
               <table class="table table-striped">
                 <thead>
                   <tr>
-                    <th style="width: 10px">#</th>
+                    <th style="width: 10px">ID</th>
                     <th>Nome</th>
                     <th>E-mail</th>
                     <th>Login</th>
@@ -48,11 +48,11 @@
                     <td>{$value.deslogin}</td />
                     <td>{if="$value.inadmin == 1"}Sim{else}Não{/if}</td>
                     <td>
-                      <a href="/admin/users/{$value.iduser}" class="btn btn-info btn-xs"><i class="fa fa-edit"></i>
+                      <a href="/admin/users/{$value.iduser}" class="btn btn-outline-info btn-xs"><i class="fa fa-edit"></i>
                         Editar</a>
                       <a href="/admin/users/{$value.iduser}/delete"
                         onclick="return confirm('Deseja realmente excluir este registro?')"
-                        class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Excluir</a>
+                        class="btn btn-outline-danger btn-xs"><i class="fa fa-trash"></i> Excluir</a>
                     </td>
                   </tr>
                   {/loop}

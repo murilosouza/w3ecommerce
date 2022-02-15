@@ -1,0 +1,52 @@
+<?php if(!class_exists('Rain\Tpl')){exit;}?><!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>WCubo Store Admin | Reset de Senha</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="/views-src/admin/dist/css/bootstrap.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="/views-src/admin/plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="/views-src/admin/dist/css/adminlte.min.css">
+</head>
+
+<body class="hold-transition lockscreen">
+<!-- Automatic element centering -->
+<div class="lockscreen-wrapper">
+  <div class="lockscreen-logo">
+    <a href="/admin/login"><b>W3 Store</b> Admin</a>
+  </div>
+
+  <!-- /.lockscreen-item -->
+  <div class="help-block text-center">
+    <div class="alert alert-danger">
+      
+      <h4><i class="icon fas fa-exclamation-triangle"></i> Algo errado!</h4>
+      <h6>Usuário e/ou Senha inválidos</h6>
+      <p class="mb-1">
+        <a href="/admin/forgot"><i class="icon fas fa-user-lock"></i> Recuperar Acesso</a>
+      </p>
+    </div>
+    
+  </div>
+  <div class="lockscreen-footer text-center">
+    <!-- Default to the left -->
+    Desenvolvido por <strong><a href="https://www.wcubo.com.br">WCubo</a></strong> @ 2022
+  </div>
+</div>
+<!-- /.center -->
+
+<!-- jQuery 2.2.3 -->
+<script src="/res/admin/plugins/jQuery/jquery-2.2.3.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="/res/admin/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
