@@ -7,6 +7,7 @@ use Slim\Slim;
 use Hcode\Page;
 use Hcode\PageAdmin;
 use Hcode\Model\User;
+use Hcode\Model\Category;
 
 $app = new Slim();
 
@@ -257,6 +258,31 @@ $app->get("/admin/login/error", function(){
 
 	$page->setTpl("login-error");	
 
+});
+
+$app->get("/admin/categories", function()
+{
+	$categories = Category::listAll();
+
+	$page = new PageAdmin();
+
+	$page->setTpl("categories", [
+		'categories'=>$categories
+	]);
+});
+
+$app->get("/admin/categories/create", function()
+{
+	$page = new PageAdmin();
+
+	$page->setTpl("categories-create");
+});
+
+$app->get("/admin/categories/update", function()
+{
+	$page = new PageAdmin();
+
+	$page->setTpl("categories-update");
 });
 
 $app->run();
