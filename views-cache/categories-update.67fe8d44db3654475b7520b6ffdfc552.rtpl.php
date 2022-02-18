@@ -1,37 +1,22 @@
-<!-- Content Wrapper. Contains page content -->
+<?php if(!class_exists('Rain\Tpl')){exit;}?><!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
   <!-- Content Header (Page header) -->
   <div class="content-header">
     <div class="container-fluid">
       <div class="row mb-2">
         <div class="col-sm-6">
-<<<<<<< HEAD
-          <h4 class="m-0"><i class="far fa-folder-open"></i> Categorias</h4>
-=======
           <h4 class="m-0"><i class="fas fa-cubes"></i> Categorias</h4>
->>>>>>> classeCategoryNoMeridien
         </div><!-- /.col -->
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
             <li class="breadcrumb-item"><a href="/admin">Página inicial</a></li>
-<<<<<<< HEAD
-            <li class="breadcrumb-item active">Editar Categorias</a></li>
-=======
             <li class="breadcrumb-item active">Editar Categoria</a></li>
->>>>>>> classeCategoryNoMeridien
           </ol>
         </div><!-- /.col -->
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
   </div>
   <!-- /.content-header -->
-<<<<<<< HEAD
-
-
-<!-- Main content -->
-<section class="content">
-=======
->>>>>>> classeCategoryNoMeridien
 
   <!-- Main content -->
   <div class="content">
@@ -45,12 +30,12 @@
             </div>
             <!-- /.card-header -->
             <!-- form start -->
-            <form role="form" action="/admin/categories/{$category.idcategory}" method="post">
+            <form role="form" action="/admin/categories/<?php echo htmlspecialchars( $category["idcategory"], ENT_COMPAT, 'UTF-8', FALSE ); ?>" method="post">
               <div class="card-body">
                 <div class="form-group">
                   <label for="descategory">Nome da categoria</label>
                   <input type="text" class="form-control" id="descategory" name="descategory"
-                    placeholder="Digite o nome da categoria" value="{$category.descategory}">
+                    placeholder="Digite o nome da categoria" value="<?php echo htmlspecialchars( $category["descategory"], ENT_COMPAT, 'UTF-8', FALSE ); ?>">
                 </div>
               </div>
               <!-- /.card-body -->

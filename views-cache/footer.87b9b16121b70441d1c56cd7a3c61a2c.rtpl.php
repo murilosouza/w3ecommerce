@@ -52,9 +52,8 @@
                           <div class="address">
                               <h3>Fornecedores</h3>
                               <ul class="Links_footer">
-                                  <li class="active"><a href="#"><i class="fas fa-briefcase"></i> Meu painel</a> </li>
-                                  <li><a href="#"><i class="fas fa-sign-out-alt"></i> Sair</a> </li>
-                                  <li><a href="#"><i class="fas fa-sign-in-alt"></i> Entrar</a> </li>
+                                  <li class="active"><a href="/admin"><i class="fas fa-briefcase"></i> Meu painel</a> </li>
+                                  <li><a href="/admin"><i class="fas fa-sign-in-alt"></i> Entrar</a> </li>
                               </ul>
                           </div>
                       </div>

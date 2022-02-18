@@ -1,37 +1,22 @@
-<!-- Content Wrapper. Contains page content -->
+<?php if(!class_exists('Rain\Tpl')){exit;}?><!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
   <!-- Content Header (Page header) -->
   <div class="content-header">
     <div class="container-fluid">
       <div class="row mb-2">
         <div class="col-sm-6">
-<<<<<<< HEAD
-          <h4 class="m-0"><i class="far fa-folder-open"></i> Categorias</h4>
-=======
-          <h4 class="m-0"><i class="fas fa-cubes"></i> Categorias</h4>
->>>>>>> classeCategoryNoMeridien
+          <h4 class="m-0"><i class="fas fa-barcode"></i> Produtos</h4>
         </div><!-- /.col -->
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
             <li class="breadcrumb-item"><a href="/admin">Página inicial</a></li>
-<<<<<<< HEAD
-            <li class="breadcrumb-item active">Editar Categorias</a></li>
-=======
-            <li class="breadcrumb-item active">Editar Categoria</a></li>
->>>>>>> classeCategoryNoMeridien
+            <li class="breadcrumb-item active">Editar Produtos</a></li>
           </ol>
         </div><!-- /.col -->
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
   </div>
   <!-- /.content-header -->
-<<<<<<< HEAD
-
-
-<!-- Main content -->
-<section class="content">
-=======
->>>>>>> classeCategoryNoMeridien
 
   <!-- Main content -->
   <div class="content">
@@ -40,17 +25,17 @@
         <div class="col-lg-12">
           <div class="card">
             <div class="card-header">
-              <h4 class="m-0">Editar Categoria <span><a href="/admin/categories" class="btn btn-default float-right"><i
+              <h4 class="m-0">Editar Produto <span><a href="/admin/products" class="btn btn-default float-right"><i
                       class="fas fa-arrow-left"></i> Tela anterior</a></span></h4>
             </div>
             <!-- /.card-header -->
             <!-- form start -->
-            <form role="form" action="/admin/categories/{$category.idcategory}" method="post">
+            <form role="form" action="/admin/products/<?php echo htmlspecialchars( $product["idproduct"], ENT_COMPAT, 'UTF-8', FALSE ); ?>" method="post">
               <div class="card-body">
                 <div class="form-group">
-                  <label for="descategory">Nome da categoria</label>
-                  <input type="text" class="form-control" id="descategory" name="descategory"
-                    placeholder="Digite o nome da categoria" value="{$category.descategory}">
+                  <label for="descategory">Nome do produto</label>
+                  <input type="text" class="form-control" id="desproduct" name="desproduct"
+                    placeholder="Digite o nome do produto" value="<?php echo htmlspecialchars( $product["desproduct"], ENT_COMPAT, 'UTF-8', FALSE ); ?>">
                 </div>
               </div>
               <!-- /.card-body -->
