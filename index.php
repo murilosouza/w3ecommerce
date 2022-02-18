@@ -278,6 +278,19 @@ $app->get("/admin/categories/create", function()
 	$page->setTpl("categories-create");
 });
 
+$app->post("/admin/categories/create", function()
+{
+	$categories = new Category();
+
+	$categories->setData($_POST);
+
+	$categories->save();
+
+	header('Location: /admin/categories');
+
+	exit;
+});
+
 $app->get("/admin/categories/update", function()
 {
 	$page = new PageAdmin();
