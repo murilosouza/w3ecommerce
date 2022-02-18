@@ -23,13 +23,12 @@ class Product extends Model {
         ));
         $this->setData($results[0]);
 
-        Product::updateFile();
     }
 
     public function get($idproduct)
     {
         $sql = new Sql;
-        $results = $sql->select("SELECT * FROM tb_products WHERE idcproduct = :idproduct", [
+        $results = $sql->select("SELECT * FROM tb_products WHERE idproduct = :idproduct", [
             ':idproduct'=>$idproduct
         ]);
         $this->setData($results[0]);

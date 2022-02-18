@@ -280,20 +280,6 @@ $app->get("/admin/categories/create", function()
 
 $app->post("/admin/categories/create", function()
 {
-<<<<<<< HEAD
-	$categories = new Category();
-
-	$categories->setData($_POST);
-
-	$categories->save();
-
-	header('Location: /admin/categories');
-
-	exit;
-});
-
-$app->get("/admin/categories/update", function()
-=======
 	User::verifyLogin();
 	$category = new Category();
 	$category->setData($_POST);
@@ -378,7 +364,6 @@ $app->post("/admin/products/create", function()
 });
 
 $app->get("/admin/products/:idcategory/delete", function($idproduct)
->>>>>>> classeCategoryNoMeridien
 {
 	User::verifyLogin();
 	$product = new Product();

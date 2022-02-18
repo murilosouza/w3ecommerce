@@ -17,17 +17,6 @@ class Category extends Model {
     public function save()
     {
         $sql = new Sql;
-<<<<<<< HEAD
-
-        $results = $sql->select("CALL sp_categories_save(:idcategory, :descategory)",
-        array(
-            ":idcategory"=>$this->getidcategory(),
-            ":descategory"=>$this->getdescategory()
-        ));
-
-        $this->setData($results[0]);
-    }
-=======
         $results = $sql->select("CALL sp_categories_save(:idcategory, :descategory)", array(
             "idcategory"=>$this->getidcategory(),
             "descategory"=>$this->getdescategory()
@@ -65,7 +54,6 @@ class Category extends Model {
         }
         file_put_contents($_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . "views" . DIRECTORY_SEPARATOR . "categories-menu.html", implode('', $html));
     }
->>>>>>> classeCategoryNoMeridien
 }
 
 ?>
