@@ -254,6 +254,12 @@
                 <p>Categorias</p>
               </a>
             </li>
+            <li class="nav-item">
+              <a href="/admin/products" class="nav-link">
+                <i class="fas fa-barcode"></i>
+                <p>Produtos</p>
+              </a>
+            </li>
         
           </ul>
         </li>
