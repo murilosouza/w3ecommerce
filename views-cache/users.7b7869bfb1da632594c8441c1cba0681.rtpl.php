@@ -25,7 +25,7 @@
         <div class="col-lg-12">
           <div class="card">
             <div class="card-header">
-              <h4 class="m-0">Usuários Cadastrados <span><a href="/admin/users/create" class="btn btn-outline-primary float-right"><i class="nav-icon fas fa-user-plus"></i> Cadastrar Usuário</a></span></h4> 
+              <h4 class="m-0">Usuários Cadastrados <span><a href="/admin/users/create" class="btn btn-outline-primary float-right"><i class="nav-icon fas fa-user-plus"></i> Adicionar Usuário</a></span></h4> 
             </div>
             <div class="card-body no-padding">
               <table class="table table-striped">

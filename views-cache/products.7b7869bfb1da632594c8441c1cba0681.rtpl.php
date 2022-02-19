@@ -26,7 +26,7 @@
           <div class="card">
             <div class="card-header">
               <h4 class="m-0">Adicionar Produto <span><a href="/admin/products/create"
-                    class="btn btn-outline-primary float-right"><i class="nav-icon fas fa-cube"></i> Adicionar
+                    class="btn btn-outline-primary float-right"><i class="fas fa-barcode"></i> Adicionar
                     Produto</a></span></h4>
             </div>
             <div class="card-body no-padding">
@@ -34,7 +34,13 @@
                 <thead>
                   <tr>
                     <th style="width: 10px">ID</th>
-                    <th>Nome do Produto</th>
+                    <th>Nome do produto</th>
+                    <th>Preço(R$)</th>
+                    <th>Largura(cm)</th>
+                    <th>Altura(cm)</th>
+                    <th>Comprimento(cm)</th>
+                    <th>Peso(g)</th>
+                    <th>Foto</th>
                     <th style="width: 140px">&nbsp;</th>
                   </tr>
                 </thead>
@@ -44,6 +50,12 @@
                   <tr>
                     <td><?php echo htmlspecialchars( $value1["idproduct"], ENT_COMPAT, 'UTF-8', FALSE ); ?></td>
                     <td><?php echo htmlspecialchars( $value1["desproduct"], ENT_COMPAT, 'UTF-8', FALSE ); ?></td>
+                    <td><?php echo htmlspecialchars( $value1["vlprice"], ENT_COMPAT, 'UTF-8', FALSE ); ?></td>
+                    <td><?php echo htmlspecialchars( $value1["vlwidth"], ENT_COMPAT, 'UTF-8', FALSE ); ?></td>
+                    <td><?php echo htmlspecialchars( $value1["vlheight"], ENT_COMPAT, 'UTF-8', FALSE ); ?></td>
+                    <td><?php echo htmlspecialchars( $value1["vllength"], ENT_COMPAT, 'UTF-8', FALSE ); ?></td>
+                    <td><?php echo htmlspecialchars( $value1["vlweight"], ENT_COMPAT, 'UTF-8', FALSE ); ?></td>
+                    <td><i class="fas fa-camera"></i></td>
                     <td>
                       <a href="/admin/products/<?php echo htmlspecialchars( $value1["idproduct"], ENT_COMPAT, 'UTF-8', FALSE ); ?>" class="btn btn-outline-info btn-xs"><i
                           class="fa fa-edit"></i> Editar</a>

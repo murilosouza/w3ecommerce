@@ -25,7 +25,8 @@
         <div class="col-lg-12">
           <div class="card">
             <div class="card-header">
-              <h4 class="m-0">Editar Usuário <span><a href="/admin/users" class="btn btn-default float-right"><i class="fas fa-arrow-left"></i> Tela anterior</a></span></h4>
+              <h4 class="m-0">Editar Usuário <span><a href="/admin/users" class="btn btn-default float-right"><i
+                      class="fas fa-arrow-left"></i> Tela anterior</a></span></h4>
             </div>
             <!-- /.card-header -->
             <!-- form start -->
