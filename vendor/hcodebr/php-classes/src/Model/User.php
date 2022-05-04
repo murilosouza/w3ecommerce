@@ -52,7 +52,6 @@ class User extends Model {
 
     public static function verifyLogin($inadmin = true)
     {
-
         if (
             !isset($_SESSION[User::SESSION])
             ||
