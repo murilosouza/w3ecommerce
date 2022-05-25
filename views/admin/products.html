@@ -47,13 +47,13 @@
                 <tbody>
                   {loop="$products"}
                   <tr>
-                    <td>{$value.idproduct}</td>
+                    <td class="text-right">{$value.idproduct}</td>
                     <td>{$value.desproduct}</td>
-                    <td>{$value.vlprice}</td>
-                    <td>{$value.vlwidth}</td>
-                    <td>{$value.vlheight}</td>
-                    <td>{$value.vllength}</td>
-                    <td>{$value.vlweight}</td>
+                    <td class="text-right">{$value.vlprice}</td>
+                    <td class="text-right">{$value.vlwidth}</td>
+                    <td class="text-right">{$value.vlheight}</td>
+                    <td class="text-right">{$value.vllength}</td>
+                    <td class="text-right">{$value.vlweight}</td>
                     <td><i class="fas fa-camera"></i></td>
                     <td>
                       <a href="/admin/products/{$value.idproduct}" class="btn btn-outline-info btn-xs"><i

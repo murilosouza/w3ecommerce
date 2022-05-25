@@ -10,7 +10,12 @@ class Product extends Model {
     public static function listAll()
     {
         $sql = new Sql();
-        return $sql->select("SELECT * FROM tb_products ORDER BY desproduct");
+        $todosProdutos = $sql->select("SELECT * FROM tb_products ORDER BY desproduct");
+        foreach ($todosProdutos as &$produto) {
+            $produto['vlprice'] = number_format($produto['vlprice'],2,',','.');
+        }
+        //print_r($todosProdutos); die;
+        return $todosProdutos;
     }
 
     public function save()
