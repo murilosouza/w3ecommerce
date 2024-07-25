@@ -1,6 +1,6 @@
 # Projeto E-commerce
 
-Projeto desenvolvido do zero, usando PHP7
+Projeto desenvolvido do zero, usando PHP7 e Slim
 
 Template usado no projeto [Almsaeed Studio](https://almsaeedstudio.com)
 
